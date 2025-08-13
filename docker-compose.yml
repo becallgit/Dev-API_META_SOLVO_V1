@@ -8,7 +8,7 @@ services:
       - DB_PASSWORD=VeSix3D1Ma42r8vi4eg1MujAzogiki
       - DB_NAME=digital
       - SENDER_EMAIL=davidbedigital@gmail.com
-      - SENDER_PASSWORD="ubus ghst pbbj vpqu"
+      - SENDER_PASSWORD=ubus ghst pbbj vpqu
       - RECIPIENT_EMAIL=jose.batista@becallgroup.com
       - ORG_DB_HOST=lepho20.aviloncenter.com
       - ORG_DB_USER=digital_davidbatista
