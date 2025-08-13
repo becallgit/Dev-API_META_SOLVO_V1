@@ -2,7 +2,7 @@ services:
   meta-etl:
     build: .
     environment:
-      - DECRYPTION_KEY=ybesecretobesecure1999
+      - DECRYPTION_KEY=besecretobesecure1999
       - DB_HOST=lepho20.aviloncenter.com
       - DB_USER=digital_davidbatista
       - DB_PASSWORD=VeSix3D1Ma42r8vi4eg1MujAzogiki
