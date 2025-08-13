@@ -10,6 +10,11 @@ services:
       - SENDER_EMAIL=davidbedigital@gmail.com
       - SENDER_PASSWORD="ubus ghst pbbj vpqu"
       - RECIPIENT_EMAIL=jose.batista@becallgroup.com
+      - ORG_DB_HOST=lepho20.aviloncenter.com
+      - ORG_DB_USER=digital_davidbatista
+      - ORG_DB_PASSWORD=VeSix3D1Ma42r8vi4eg1MujAzogiki
+      - ORG_DB_NAME=digital
+
     volumes:
       - ./data:/app/data
     restart: unless-stopped
