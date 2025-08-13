@@ -4,11 +4,14 @@ services:
   meta-etl:
     build: .
     environment:
-      - DECRYPTION_KEY=your_decryption_key_here
-      - DB_HOST=your_db_host
-      - DB_USER=your_db_user
-      - DB_PASSWORD=your_db_password
-      - DB_NAME=your_db_name
+      - DECRYPTION_KEY=ybesecretobesecure1999
+      - DB_HOST=lepho20.aviloncenter.com
+      - DB_USER=digital_davidbatista
+      - DB_PASSWORD=VeSix3D1Ma42r8vi4eg1MujAzogiki
+      - DB_NAME=digital
+      - SENDER_EMAIL=davidbedigital@gmail.com
+      - SENDER_PASSWORD="ubus ghst pbbj vpqu"
+      - RECIPIENT_EMAIL=jose.batista@becallgroup.com
     volumes:
       - ./data:/app/data
     restart: unless-stopped
